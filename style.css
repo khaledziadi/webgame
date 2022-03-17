@@ -1,0 +1,142 @@
+                                BODY {
+                                    background-image: url("bg2.jpg");
+                                    /*background-color: #0e1821;*/
+                                    text-align: center;
+                                    min-height: 100%;
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                }
+                                
+                                H1 {
+                                    margin: 0;
+                                    color: #afa36f;
+                                    /*font-size: 80px;
+                    /*line-height: 50px;
+                    /*min-width: 50px;
+                    /*outline: none;
+                    /*vertical-align: middle;
+                    /*text-shadow: 0 3px 20px red, 0 0 20px rgb(76, 0, 255), 0 0 10px rgb(0, 60, 255), 4px -5px 6px rgb(47, 0, 255), -4px -10px 10px rgb(47, 0, 255), 0 -10px 30px yellow;
+                    /*animation: 2s Blazing infinite alternate linear;*/
+                                    position: fixed;
+                                    top: 20%;
+                                    left: 40%;
+                                    box-shadow: 0 0 5px #21def3, 0 0 10px #00b6ee, 0 0 50px #040cf7;
+                                    border-radius: 2px;
+                                }
+                                
+                                h2 {
+                                    margin: 0;
+                                    color: #ff0000;
+                                    font-size: 45px;
+                                    line-height: 50px;
+                                    min-width: 50px;
+                                    outline: none;
+                                    vertical-align: middle;
+                                    text-shadow: 0 3px 20px #2dbdf9, 0 0 20px #ffffff, 0 0 5px #ffffff, 4px -5px 6px #ffffff, -4px -5px 5px #ffffff, 0 -5px 5px rgb(7, 50, 192);
+                                    animation: 2s Blazing infinite alternate linear;
+                                    position: fixed;
+                                    top: 55%;
+                                    left: 39%;
+                                }
+                                
+                                #grid {
+                                    position: absolute;
+                                    top: 37%;
+                                    left: 39%;
+                                    /*border: 1px solid #ffffff;*/
+                                }
+                                
+                                #grid TR TD {
+                                    border-radius: 10px;
+                                    background: #0e1821;
+                                    width: 25px;
+                                    height: 25px;
+                                    text-align: center;
+                                    -webkit-box-shadow: 0px 1px 1px#0e1821;
+                                    -moz-box-shadow: 0px 1px 1px#0e1821;
+                                    box-shadow: 0px 1px 1px#0e1821;
+                                    border-radius: 10px;
+                                    background: #2e3943;
+                                    box-shadow: 0 0 5px #21def3, 0 0 10px #00b6ee, 0 0 50px #040cf7;
+                                }
+                                
+                                #grid TR TD :hover {
+                                    border-color: #000000;
+                                    animation: 10s change_bg linear;
+                                }
+                                
+                                #grid TR TD.clicked {
+                                    background: #2dbdf9;
+                                }
+                                
+                                #grid TR TD.clicked:hover {
+                                    border-color: #7e92a2;
+                                    animation: 10s change_bg linear;
+                                    box-shadow: 0 0 5px #9521f3, 0 0 10px #00b6ee, 0 0 50px #040cf7;
+                                }
+                                
+                                #grid TR TD.mine {
+                                    background: #ff0000;
+                                }
+                                
+                                #grid TR TD.flag {
+                                    background: #7e92a2;
+                                }
+                                
+                                BUTTON {
+                                    background-color: #2dbdf9;
+                                    color: #ffffff;
+                                    margin: 12px;
+                                    position: fixed;
+                                    top: 85%;
+                                    left: 46%;
+                                    font-size: 25px;
+                                    border-radius: 10px;
+                                    box-shadow: 0 0 5px #21def3, 0 0 10px #00b6ee, 0 0 50px #040cf7;
+                                }
+                                
+                                #name1 {
+                                    position: fixed;
+                                    top: 90%;
+                                    left: 46%;
+                                }
+                                
+                                #count {
+                                    color: #ffffff;
+                                    top: 30%;
+                                    left: 45.5%;
+                                    border-radius: 5px;
+                                    background: #f92d2d;
+                                    box-shadow: 0 0 5px #ff0000, 0 0 10px #eeab00, 0 0 50px #e304f7;
+                                    font-size: 25px;
+                                }
+                                
+                                #flgnmb {
+                                    color: #ffffff;
+                                    top: 30%;
+                                    left: 60%;
+                                    border-radius: 10px;
+                                    background: #f92d2d;
+                                    box-shadow: 0 0 5px #ff0000, 0 0 10px #eeab00, 0 0 50px #e304f7;
+                                    font-size: 25px;
+                                }
+                                
+                                #flg1 {
+                                    color: #ffffff;
+                                    top: 30%;
+                                    left: 52%;
+                                    border-radius: 5px;
+                                    background: #2dbdf9;
+                                    box-shadow: 0 0 5px #21def3, 0 0 10px #00b6ee, 0 0 50px #040cf7;
+                                    font-size: 25px;
+                                }
+                                
+                                #time {
+                                    color: #ffffff;
+                                    top: 30%;
+                                    left: 39%;
+                                    border-radius: 2px;
+                                    background: #2dbdf9;
+                                    box-shadow: 0 0 5px #21def3, 0 0 10px #00b6ee, 0 0 50px #040cf7;
+                                    font-size: 25px;
+                                }
